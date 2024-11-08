@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Dashboard</h1>
+        <p class="welcome-message">Welcome Keshav</p>
+
+        <div class="user-actions">
+            <button>Fetch Top 10 GitHub Users</button>
+            <select id="sortDropdown" onchange="sortList()">
+                <option value="default">Default</option>
+                <option value="alphabetical">Alphabetical</option>
+            </select>
+        </div>
+
+        <ul class="user-list">
+            <li>mojombo</li>
+            <li>defunkt</li>
+            <li>pjhyett</li>
+            <li>wycats</li>
+            <li>ezmobius</li>
+            <li>ivey</li>
+            <li>evanphx</li>
+            <li>vanpelt</li>
+            <li>wayneeseguin</li>
+            <li>brynary</li>
+        </ul>
+        <button class="logout-button">Logout</button>
+    </div>
+</body>
+</html>
